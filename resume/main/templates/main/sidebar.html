@@ -1,0 +1,16 @@
+{% load static %}
+<div class="border-right border-warning h-100">
+    <div class="text-center">
+      <img src="{% static 'main/images/deepak.jpg' %}" class="img-fluid rounded-circle mt-5" height="100px" width="100px">
+      <h3 class="text-white st-fonts">Deepak Kumar Chouhan</h3>
+    </div>
+    <hr class="border-light">
+    <nav class="nav flex-column text-center">
+      <a href="{% url 'Home' %}" class="nav-link {{myhome}}">Home</a>
+      <a href="{% url 'services' %}" class="nav-link {{myservices}}">Services</a>
+      <a href="{% url 'Skills' %}" class="nav-link {{myskill}}">Skills</a>
+      <a href="{% url 'Contact' %}" class="nav-link {{mycontact}}">Contact Us</a>
+
+     </nav>
+  </div>
+ 

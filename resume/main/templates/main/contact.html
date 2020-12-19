@@ -1,0 +1,75 @@
+{% extends 'main/base.html' %}
+{% load static %}
+{% block content %}
+
+  <div class="container mt-5">
+        <h1 class="text-warning mb-5 border-bottom">Contact Us</h1>
+      
+         <!-- 1st Row -->
+        <div class="row text-white mb-5">
+           <p class="mx-auto mb-5">
+               Have any Questions feel free to contact us. We will touch you within 24 hrs.Thank You.
+           </p>
+           <div class="col-sm-9 mb-5">
+            <form action="">
+             <div class="form-row">
+                 <div class="form-group col-md-6">
+                   <label for="inputName">Your Name</label>
+                   <input type="text" class="form-control" id="inputName"/>
+                 </div>
+                 <div class="form-group col-md-6">
+                    <label for="inputEmaila">Your Email Id</label>
+                    <input type="email" class="form-control" id="inputEmail" required/>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="inputSubject">Your Subjects</label>
+                    <input type="text" class="form-control" id="inputSubject"/>
+                  </div>
+ 
+                  <div class=" mb-3 ">
+                    <label for="inputTextarea">Your Message</label>
+                    <textarea class="form-control" id="inputTextarea" required></textarea>
+                  </div>
+
+            </div>
+             <button class="btn btn-primary" type="submit">Send</button>
+            </form>
+            </div>
+
+             
+                <!-- side Icons -->
+              <div class="col-sm-3 text-center">
+
+                <ul class="list-unstyled">
+                    <li>
+                        <i class="fas fa-map-marker-alt fa-2x  i-color"></i>
+                        <p>Dhanbad,Jharkhnad ,India</p>
+                    </li>
+                    <li>
+                        <i class="fas fa-phone fa-2x i-color "></i>
+                        <p>Mobile:9999545544</p>
+                    </li>
+                    <li>
+                        <i class="fas fa-envelope fa-2x i-color"></i>
+                        <p>Email:dk397787@gmail.com</p>
+                    </li>
+                </ul>
+                </div>
+            
+          </div>
+     </div>
+                      <!-- Footers -->
+        <div class="text-center">
+          <a href="https://www.facebook.com/deepak.kumar9470" ><i class="fab fa-facebook mr-3 footer "></i></a>
+          <a href="https://www.instagram.com/deepak_chouhan9470/" ><i class="fab fa-instagram mr-3 footer"></i></i></a>
+          <a href="https://twitter.com/dk397787"><i class="fab fa-twitter mr-3 footer"></i></a>
+          <a href="https://github.com/deepakku.footer" ><i class="fab fa-github mr-3 footer"></i></a>
+        </div>
+     
+         
+
+        
+
+
+{% endblock content %} 
